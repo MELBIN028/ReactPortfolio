@@ -7,10 +7,11 @@ const Experience = () => {
     <section  id='experience'>
       <h5>What skills I have ?</h5>
       <h2>My Experience</h2>
-      <div className='container experience__container'>
+
+      <div className="container experience__container">
         <div className='experience__frontend'>
           <h3>Frontend Development</h3>
-          <div className="experience__content">
+          <div className='experience__content'>
             <article className='experience__details'>
               <HiBadgeCheck/>
               <h4>CSS</h4>
@@ -40,44 +41,35 @@ const Experience = () => {
           
         </div>
         <div className='experience__backend'>
-        <h3>Frontend Development</h3>
-          <div className="experience__content">
+        <h3>Backend Development</h3>
+          <div className='experience__content'>
             <article className='experience__details'>
               <HiBadgeCheck/>
-              <h4>CSS</h4>
-              <small className='text-light'>Advanced</small>
+              <h4>PolarDB</h4>
+              <small className='text-light'>Basic</small>
             </article>
             <article className='experience__details'>
               <HiBadgeCheck/>
-              <h4>React</h4>
-              <small className='text-light'>Intermediate</small>
+              <h4>Python</h4>
+              <small className='text-light'>Basic</small>
             </article>
             <article className='experience__details'>
               <HiBadgeCheck/>
-              <h4>Tailwind</h4>
-              <small className='text-light'>Intermediate</small>
+              <h4>MySQL</h4>
+              <small className='text-light'>Basic</small>
             </article>
             <article className='experience__details'>
               <HiBadgeCheck/>
-              <h4>Bootstrap</h4>
-              <small className='text-light'>Beginner</small>
+              <h4>MongoDB</h4>
+              <small className='text-light'>Basic</small>
             </article>
-            <article className='experience__details'>
-              <HiBadgeCheck/>
-              <h4>JavaScript</h4> 
-              <small className='text-light'>Advanced</small>
-            </article>
-        
+            
           
-        </div>          
-          
-          
-          
-
+        </div>        
 
         </div>
 
-      </div>
+        </div>
     </section >
   )
 }
